@@ -15,16 +15,38 @@
 package com.embalance.me.embalance;
 
 import android.app.Activity;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
+
 
 /*
  * MainActivity class that loads {@link MainFragment}.
  */
 public class MainActivity extends Activity {
 
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final Button button = findViewById(R.id.imageButton14);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Code here executes on main thread after user presses button
+                setContentView(R.layout.games);
+                Button img = (Button) findViewById(R.id.imageButton16);
+                img.setBackgroundResource(R.drawable.pong);
+
+                AnimationDrawable myFrameAnimation = (AnimationDrawable) img.getBackground();
+                myFrameAnimation.start();
+
+
+            }
+        });
+
     }
 }

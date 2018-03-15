@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="62dp" />
+            android:layout_marginEnd="100dp" />
 
         <TextView
             android:id="@+id/textView"
@@ -42,7 +42,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="11dp"
-        android:src="@mipmap/Unbenannt" />
+        android:src="@mipmap/unbenannt" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -88,6 +88,85 @@
         android:layout_marginBottom="30dp"
         android:background="#b8d78e">
 
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/imageButton16"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:src="@mipmap/ic_launcher"
+                    android:text="Trainingspläne"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/imageButton15"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:src="@mipmap/ic_launcher"
+                    android:text="Training starten"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/imageButton14"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:src="@mipmap/ic_launcher"
+                    android:text="Einzelspiele"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/imageButton13"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:src="@mipmap/ic_launcher"
+                    android:text="Bestenliste"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/imageButton12"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:src="@mipmap/ic_launcher"
+                    android:text="Trainingsplan"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
     </RelativeLayout>
 
 </RelativeLayout>

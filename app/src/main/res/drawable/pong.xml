@@ -1,0 +1,34 @@
+<animation-list android:oneshot="false" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/pong1" android:duration="150" />
+    <item android:drawable="@drawable/pong10" android:duration="150" />
+    <item android:drawable="@drawable/pong20" android:duration="150" />
+    <item android:drawable="@drawable/pong30" android:duration="150" />
+    <item android:drawable="@drawable/pong40" android:duration="150" />
+    <item android:drawable="@drawable/pong50" android:duration="150" />
+    <item android:drawable="@drawable/pong60" android:duration="150" />
+    <item android:drawable="@drawable/pong70" android:duration="150" />
+    <item android:drawable="@drawable/pong80" android:duration="150" />
+    <item android:drawable="@drawable/pong90" android:duration="150" />
+    <item android:drawable="@drawable/pong100" android:duration="150" />
+    <item android:drawable="@drawable/pong110" android:duration="150" />
+    <item android:drawable="@drawable/pong120" android:duration="150" />
+    <item android:drawable="@drawable/pong130" android:duration="150" />
+    <item android:drawable="@drawable/pong140" android:duration="150" />
+    <item android:drawable="@drawable/pong150" android:duration="150" />
+    <item android:drawable="@drawable/pong160" android:duration="150" />
+    <item android:drawable="@drawable/pong170" android:duration="150" />
+    <item android:drawable="@drawable/pong180" android:duration="150" />
+    <item android:drawable="@drawable/pong190" android:duration="150" />
+    <item android:drawable="@drawable/pong200" android:duration="150" />
+    <item android:drawable="@drawable/pong210" android:duration="150" />
+    <item android:drawable="@drawable/pong220" android:duration="150" />
+    <item android:drawable="@drawable/pong230" android:duration="150" />
+    <item android:drawable="@drawable/pong240" android:duration="150" />
+    <item android:drawable="@drawable/pong250" android:duration="150" />
+    <item android:drawable="@drawable/pong260" android:duration="150" />
+    <item android:drawable="@drawable/pong270" android:duration="150" />
+    <item android:drawable="@drawable/pong280" android:duration="150" />
+    <item android:drawable="@drawable/pong290" android:duration="150" />
+
+
+</animation-list>
