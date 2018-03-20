@@ -48,5 +48,14 @@ public class MainActivity extends Activity {
             }
         });
 
+        final Button plansbutton = findViewById(R.id.imageButton16);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Code here executes on main thread after user presses button
+                setContentView(R.layout.plans);
+
+            }
+        });
+
     }
 }
