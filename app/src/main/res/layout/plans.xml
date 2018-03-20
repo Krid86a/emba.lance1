@@ -14,6 +14,18 @@
         android:layout_marginTop="77dp"
         android:background="#3baa36">
 
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="77dp"
+            android:layout_toStartOf="@+id/imageButton99"
+            android:background="#3baa36"
+            android:scaleX="3"
+            android:scaleY="3"
+            android:src="@android:drawable/ic_menu_add" />
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
@@ -60,6 +72,7 @@
             android:layout_alignParentStart="true">
 
             <ListView
+                android:id="@+id/listview"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent" />
 

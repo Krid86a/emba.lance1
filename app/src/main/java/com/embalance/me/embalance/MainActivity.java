@@ -18,8 +18,14 @@ import android.app.Activity;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 
 /*
@@ -53,7 +59,25 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 // Code here executes on main thread after user presses button
                 setContentView(R.layout.plans);
+                ListView listView = (ListView)findViewById(R.id.listview);
 
+                //
+
+                UserAccount tom = new UserAccount("Tom","admin");
+                UserAccount jerry = new UserAccount("Jerry","user");
+                UserAccount donald = new UserAccount("Donald","guest", false);
+
+                UserAccount[] users = new UserAccount[]{tom,jerry, donald};
+
+
+                // android.R.layout.simple_list_item_1 is a constant predefined layout of Android.
+                // used to create a ListView with simple ListItem (Only one TextView).
+
+                ArrayAdapter<UserAccount> arrayAdapter
+                        = new ArrayAdapter<UserAccount>(getApplication(), android.R.layout.simple_list_item_1 , users);
+
+
+                listView.setAdapter(arrayAdapter);
             }
         });
 
